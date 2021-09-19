@@ -1,0 +1,14 @@
+[
+    {
+        "id" : "lettre-pour-élise",
+        "S1" : ["Bonjour, ceci est un essai", "Voyons"],
+        "S2" : ["Il y a plusieurs", "paragraphes", "ici"],
+        "S3" : ["Tout va bien c'est super!", "A plus"]
+    },
+    {
+        "id" : "Aircall-12X35vb",
+        "S1" : ["Votre entreprise connaît une forte croissance, qui ne devrait que grandir au vu du service que vous proposez et des nouvelles habitudes de travail qui se mettent en place aujourd’hui. C’est un gage de réussite, de professionnalisme, de compétences et de challenges à venir qui me donne envie de travailler avec vous.", "Avec une équipe internationale grandissante, c’est grâce à vos collaborateurs engagés, ambitieux, communicatifs et dotés d’un fort esprit d’équipe que votre produit grandit et s’améliore. Ce genre d’environnement promet une évolution professionnelle et humaine pour chacun, c’est pourquoi je serais extrêmement heureuse d’en faire partie."],
+        "S2" : ["Très autonome, motivée et passionnée, je profite de chaque occasion pour approfondir mes connaissances. Ainsi, j’ai su acquérir seule de solides bases en quelques mois, profitant d’un temps libre limité (je suis maman au foyer et mon fils n’est pas encore gardé). C’est également pourquoi je suis convaincue que je saurai rapidement monter en compétences et ainsi répondre parfaitement à vos besoins sur le long terme.", "Me formant actuellement chez OpenClassrooms pour un diplôme de niveau 6 en développement Front-End, j’ai acquis de solides bases en HTML, CSS, Sass, Javascript et React. Le reste du parcours comprend : TDD et Jest, API et API REST, Redux, Chrome Debugger et la méthode Agile. De plus, Figma est un logiciel que j’utilise souvent. Je suis par ailleurs très motivée à apprendre les autres outils que vous utilisez.", "Dotée d’un bon sens du relationnel, participer à une dynamique positive et harmonieuse au sein d’une équipe est pour moi essentiel. A mon sens, cela enrichit chacun, permet de mieux évoluer et améliore les résultats. C’est ainsi que j’ai longtemps travaillé avec plaisir comme serveuse, au sein d’équipes soudées et impliquées."],
+        "S3" : ["Je serais heureuse de pouvoir mettre mes qualités et mes compétences au service d’une entreprise dynamique comme la vôtre. Je trouve votre objectif d’améliorer les modes de communication dans le monde professionnel pertinent et dans l’air du temps, ce serait donc avec un grand enthousiasme que je me joindrais à votre équipe.", "Je suis bien sûr disponible pour vous présenter mon parcours et vous détailler mon projet professionnel de vive voix.", "Un grand merci pour votre temps !"]
+    }
+]

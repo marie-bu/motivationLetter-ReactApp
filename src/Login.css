@@ -1,0 +1,42 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input, button {
+  border: none;
+  background: none;
+  color: #3C096C;
+}
+
+input:focus{
+  outline: none;
+}
+
+#password {
+  padding: 1rem;
+  border-radius: 25px;
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-left: 2px #3C096C solid;
+  border-bottom: 2px #3C096C solid;
+  font-size: 1.5rem;
+}
+
+button {
+  height: 8rem;
+  border-radius: 50%;
+  margin-left: -2rem;
+  margin-top: -1.5rem;
+  cursor: pointer;
+}
+
+.login img {
+  height: 8rem;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px grey;
+}
