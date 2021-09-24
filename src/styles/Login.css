@@ -40,3 +40,16 @@ button {
   cursor: pointer;
   box-shadow: 1px 1px 4px grey;
 }
+
+@media screen and (max-width: 1000px) {
+  input {
+      max-width: 80vw;
+  }
+  button {
+      height: 5rem;
+      margin-top: 0rem;
+  }
+  .login img {
+      height: 5rem;
+  }
+}

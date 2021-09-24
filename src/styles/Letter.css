@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@600&display=swap');
+
+.letter {
+    max-height: 100vh;
+    display: none;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.letter::-webkit-scrollbar {
+    display: none;
+  }
+
+.letter-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+    scroll-snap-align: start;
+}
+
+.s2 {
+    justify-content: center;
+}
+
+.s3 {
+    justify-content: flex-end;
+}
+
+.bubble-text {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 6rem;
+    width: 60vw;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.bubble-text::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    border-radius: 50%;
+    background-color: #3C096C;
+    animation: float 4s ease 1s infinite;
+}
+
+.p {
+    color: #FFDEAD;
+    text-align: justify;
+}
+
+.scroll {
+    align-self: flex-end;
+    margin: 0 0 5rem 2rem;
+    font-family: "Gluten";
+    font-size: 2rem;
+}
+
+#companyLogo {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 50%;
+    margin-top: -4rem;
+    height: 8rem;
+    animation: logo 2s ease alternate infinite;
+}
+
+#skills i{
+    display: block;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+    margin-right: 5vw;
+    animation: skills 1.6s ease alternate infinite;
+}
+
+#contact {
+    position: absolute;
+    z-index: 2;
+    bottom: 5vh;
+    right: 30vw;
+    margin-right: -4rem;
+    animation: contact 1s ease-in-out alternate infinite;  
+}
+
+#contact a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #FF9D0A;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: #3C096C;
+    text-decoration: none;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(3%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+
+}
+
+@keyframes logo {
+    0% {
+        transform: translateX(0) rotate(0) scale(50%);
+    }
+    60% {
+        transform: translateX(90%) rotate(720deg) scale(100%);
+    }
+    65% {
+        transform: translateX(90%) rotate(720deg) scale(105%);
+    }
+    70% {
+        transform: translateX(90%) rotate(720deg) scale(95%);
+    }
+    75% {
+        transform: translateX(90%) rotate(720deg) scale(105%);
+    }
+    100% {
+        transform: translateX(90%) rotate(720deg) scale(100%);
+    }
+}
+
+@keyframes skills {
+    0% {
+        transform: scaleX(0%);
+    }
+    30% {
+        transform: scaleX(100%);
+    }
+    100% {
+        transform: scaleX(100%);
+    }
+}
+
+@keyframes contact {
+    0% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .letter {
+        max-height: none;
+        display: none;
+        overflow-y: initial;
+        flex-direction: column;
+    }
+    .letter-section {
+        overflow: initial;
+    }
+    .bubble-text {
+        width: initial;
+        border-radius: 0%;
+        padding: 2rem;
+    }
+    .bubble-text::after {
+        display: none;
+    }
+    .p {
+        color: #3C096C;
+    }
+    .scroll, #companyLogo, #skills {
+        display: none;
+    }
+}
