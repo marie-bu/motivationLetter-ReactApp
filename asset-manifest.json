@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/motivationLetter-ReactApp/static/css/main.0ab209cc.chunk.css",
-    "main.js": "/motivationLetter-ReactApp/static/js/main.b78b969b.chunk.js",
-    "main.js.map": "/motivationLetter-ReactApp/static/js/main.b78b969b.chunk.js.map",
+    "main.css": "/motivationLetter-ReactApp/static/css/main.39683c98.chunk.css",
+    "main.js": "/motivationLetter-ReactApp/static/js/main.189a4ff3.chunk.js",
+    "main.js.map": "/motivationLetter-ReactApp/static/js/main.189a4ff3.chunk.js.map",
     "runtime-main.js": "/motivationLetter-ReactApp/static/js/runtime-main.fc15e75e.js",
     "runtime-main.js.map": "/motivationLetter-ReactApp/static/js/runtime-main.fc15e75e.js.map",
     "static/js/2.e8e84806.chunk.js": "/motivationLetter-ReactApp/static/js/2.e8e84806.chunk.js",
     "static/js/2.e8e84806.chunk.js.map": "/motivationLetter-ReactApp/static/js/2.e8e84806.chunk.js.map",
     "index.html": "/motivationLetter-ReactApp/index.html",
-    "static/css/main.0ab209cc.chunk.css.map": "/motivationLetter-ReactApp/static/css/main.0ab209cc.chunk.css.map",
+    "static/css/main.39683c98.chunk.css.map": "/motivationLetter-ReactApp/static/css/main.39683c98.chunk.css.map",
     "static/js/2.e8e84806.chunk.js.LICENSE.txt": "/motivationLetter-ReactApp/static/js/2.e8e84806.chunk.js.LICENSE.txt",
     "static/media/ZHue.df2f8b29.gif": "/motivationLetter-ReactApp/static/media/ZHue.df2f8b29.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.fc15e75e.js",
     "static/js/2.e8e84806.chunk.js",
-    "static/css/main.0ab209cc.chunk.css",
-    "static/js/main.b78b969b.chunk.js"
+    "static/css/main.39683c98.chunk.css",
+    "static/js/main.189a4ff3.chunk.js"
   ]
 }
